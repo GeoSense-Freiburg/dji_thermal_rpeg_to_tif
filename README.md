@@ -1,8 +1,8 @@
-# dji_h20t_rpeg_to_tif
+# dji_thermal_rpeg_to_tif
 
 ## Description
 
-The DJI H20T creates thermal images (infrared) in a format, which is not compatible with current photogrammetric pipelines (e.g., Agisoft Metashape, Pix4D). Moreover, the DJI thermal data should be first calibrated according to emissivity, relative humidity and camera-target-distance. This procedure enables to convert entire folders from .rtpeg to .tif format while doing the calibration on the fly. The procedure is based on the DJI Thermal SDK.
+The DJI thermal sensors creates infrared images in a format, which is not directly compatible with most photogrammetric pipelines (e.g., Agisoft Metashape, ODM, Pix4D). Moreover, the DJI thermal data should be first calibrated according to emissivity, relative humidity and camera-target-distance. This procedure enables to convert entire folders from .rtpeg to .tif format while doing the calibration on the fly. The procedure is based on the DJI Thermal SDK.
 
 ![single](https://github.com/tejakattenborn/dji_h20t_rpeg_to_tif/blob/main/single_frames.png)
 
